@@ -1,0 +1,7 @@
+---
+# tasks file for copy.ssh.public.key
+- name : Ensure public key
+  authorized_key:
+    user: "{{ ansible_ssh_user }}"
+    key: "{{ ssh_key_path }}"
+    state: present

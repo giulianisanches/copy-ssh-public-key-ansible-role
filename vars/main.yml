@@ -1,0 +1,3 @@
+---
+# vars file for copy.ssh.public.key
+ssh_key_path: /home/giuliani/.ssh/giuliani_compasso_id_rsa.pub
